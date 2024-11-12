@@ -13,7 +13,7 @@ const pastelRoutes = Router();
  * @swagger
  * tags:
  *  name: Pastel
- *  description: CRUD relacionado con Productos
+ *  description: CRUD relacionado con Pasteles
  */
 
 /**
