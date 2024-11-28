@@ -65,6 +65,7 @@ pastelRoutes.get("/:id", getPastelById); // Trae un solo producto
  *                - name
  *                - description
  *                - price
+ *                - imgUrl
  *              properties:
  *                name:
  *                  type: string
@@ -72,6 +73,8 @@ pastelRoutes.get("/:id", getPastelById); // Trae un solo producto
  *                  type: string
  *                price:
  *                  type: number
+ *                imgUrl:
+ *                  type: string
  *      responses:
  *        201:
  *          description: Producto creado
@@ -106,6 +109,9 @@ pastelRoutes.post("/", createPastel); // Crear un producto
  *                 type: string
  *               price:
  *                 type: number
+ *               imgUrl:
+ *                 type: string
+ *               
  *     responses:
  *       200:
  *         description: Producto actualizado
